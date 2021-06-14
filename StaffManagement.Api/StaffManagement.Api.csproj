@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+	<PackageReference Include="Microsoft.Azure.Cosmos" Version="3.19.0" />
+	<PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.17.0" />
+	<PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CourseEnrollment.Infra\CourseEnrollment.Infra.csproj" />
+  </ItemGroup>
+
+</Project>
